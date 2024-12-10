@@ -1,29 +1,17 @@
-# Python cache
-__pycache__/
-*.py[cod]
 
-# Virtual environment
-venv/
-ENV/
-env/
-.env
-
-# Django stuff:
-*.log
-*.pot
 *.pyc
 *.pyo
-*.sqlite3
+*.pyd
+__pycache__/
+
+venv/
+
+.env
+
+.DS_Store
 db.sqlite3
-media/
+
+/media/
 staticfiles/
 
-# IDEs and editors
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
 
-# OS files
-.DS_Store
-Thumbs.db
